@@ -1,0 +1,48 @@
+[
+	[
+		{
+			"type":"StaticText",
+			"label":"List:",
+			"size":[100,30]
+		},
+		{
+			"type":"Button",
+			"label":"Refresh Device",
+			"name":"refresh",
+			"size":[100,30]
+		},
+		{
+			"type":"StaticText",
+			"label":"AllianceList:",
+			"size":[100,30]
+		},
+		{
+			"type":"Button",
+			"label":"Go !",
+			"name":"run",
+			"size":[100,30]
+		}
+
+	],
+	[
+		{
+			"type":"ListBox",
+			"name":"devicelist",
+			"size":[220,200]
+			
+		},
+		{
+			"type":"ListBox",
+			"name":"list2",
+			"size":[220,200]
+		}
+	],
+	[
+
+		{
+			"type":"ListBox",
+			"name":"Applylist",
+			"size":[460,200]
+		}
+	]
+]
